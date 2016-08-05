@@ -14,7 +14,7 @@
 		m.Poster.width = m.global.Width
 		m.Poster.height = m.global.Height
 		if m.Poster.height = 1080
-			m.Poster.uri = "https://roku.app.box.com/representation/file_version_81845259633/image_2048/1.png?shared_name=m2w2dbk40irc49mlyghpfnrcmt9bvcjl"
+			m.Poster.uri = “”
 		else
 			m.Poster.uri = "https://roku.app.box.com/representation/file_version_81845261473/image_2048/1.png?shared_name=ibdmi5h3k05yhrxmjbth4o1lilory5hz"
 		end if
