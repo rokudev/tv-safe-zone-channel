@@ -17,7 +17,7 @@ sub main()
     
     scene = screen.createScene("HomeScene")
     screen.show()
-    SafetyZone(scene)
+    SafeZone(scene) 'Add safe zone transparent overlay
     
     
     while(true) 'Uses message port to listen if channel is closed

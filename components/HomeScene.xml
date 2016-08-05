@@ -2,7 +2,7 @@
 <component name="HomeScene" extends="Scene" xsi:noNamespaceSchemaLocation="https://devtools.web.roku.com/schema/RokuSceneGraph.xsd">
 	<children>
 		<Poster
-			id = "SafetyZone"
+			id = "SafeZone"
 		/>
 	</children>
 	
@@ -10,7 +10,7 @@
 <![CDATA[
 	
 	Sub Init()
-		m.Poster = m.top.findNode("SafetyZone")
+		m.Poster = m.top.findNode("SafeZone")
 		m.Poster.width = m.global.Width
 		m.Poster.height = m.global.Height
 		if m.Poster.height = 1080
