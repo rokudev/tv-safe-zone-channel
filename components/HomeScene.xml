@@ -13,8 +13,8 @@
 		m.Poster = m.top.findNode("SafeZone")
 		m.Poster.width = m.global.Width
 		m.Poster.height = m.global.Height
-		if m.Poster.height = 1080 ‘if fhd
-			m.Poster.uri = “https://raw.githubusercontent.com/rokudev/safe-zone-channel/master/images/Roku-Safe-Zones-FHD.png”
+		if m.Poster.height = 1080 'if FHD
+			m.Poster.uri = "https://raw.githubusercontent.com/rokudev/safe-zone-channel/master/images/Roku-Safe-Zones-FHD.png"
 		else
 			m.Poster.uri = "https://raw.githubusercontent.com/rokudev/safe-zone-channel/master/images/Roku-Safe-Zones-HD.png"
 		end if
