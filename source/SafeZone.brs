@@ -6,10 +6,10 @@ Function SafeZone(scene as object)
         poster = createObject("roSGNode", "Poster")
         poster.height = AA.h
         poster.width = AA.w
-        if poster.height = 1080
-            poster.uri = "https://roku.app.box.com/representation/file_version_81846847349/image_2048/1.png?shared_name=4ssthh9nlenlf8nhlszd88b5fhtwsc7e"
+        if poster.height = 1080 ‘if FHD
+            poster.uri = "https://raw.githubusercontent.com/rokudev/safe-zone-channel/master/images/Outline-Safe-Zones-FHD.png"
         else
-            poster.uri = "https://roku.app.box.com/representation/file_version_81846892757/image_2048/1.png?shared_name=vz81j8gheldp3how7g78j601309zwdqd"
+            poster.uri = "https://raw.githubusercontent.com/rokudev/safe-zone-channel/master/images/Outline-Roku-Safe-Zones-HD.png"
         end if
         scene.appendChild(poster)
 End Function
